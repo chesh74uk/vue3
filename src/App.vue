@@ -1,7 +1,9 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Events</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
   </div>
   <router-view />
 </template>
@@ -13,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 #nav {
